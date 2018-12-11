@@ -76,7 +76,8 @@
   const touchmoveHandler = event => {
     if (maybePrevent) {
       maybePrevent = false;
-      if (isScrollingUp(event)) {
+//       if (isScrollingUp(event)) {
+      if (true) {
         return event.preventDefault();
       }
     }
